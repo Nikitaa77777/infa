@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix.">
+            <a id="logo" href="index.html"> <span class="pink"> Сайт </span> <i>визитка</i></a>
+            <nav id="mainnav">
+                <ul>
+                    <li>
+                        <a href="./uslugi.html">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="./about.html"> О нас</a>
+                    </li>
+                    <li>
+                        <a href="./customers.html">Клиенты</a>
+                    </li>
+                    <li>
+                        <a href="./contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+</div>
+<main>
+    <form id="contact-form" action="">
+            <div class="form_item">
+            <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать Услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предожить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+                <div class="form_item">
+                    <label for="name">Имя</label><br>
+                     <input name="name" id="email" type="text" placeholder="Введите ваше имя" required="Обязательное поле" type="date" type="tel">
+            
+                </div>
+        <div class="form_item">
+             <label for="name">Email</label><br>
+            <input name="email" id="name" type="email" placeholder="Введите вашу электронную почту" required="Обязательное поле" type="date" type="tel">
+        </div>
+        <label for="message">Текст сообщения:</label><br>
+        <textarea id="message" name="message" rows="10" cols="50"  placeholder="Напишите ваше сообщение здесь..." required="Обязательное поле" type="date" type="tel"></textarea><br>
+        <input type="submit" value="Отправить">
+          
+          
+    </form>
+</main>
+<footer>
+    <p1 class=" footer__block">Написать нам &#9650;</p1>
+    <p2 class=" footer__block">&copy; Новая компания</p2>
+    <div class="footer__icons">
+     <a href="https://vk.com/feed" target= "_blank">
+         <img src="./img/800px_Vk_logo.svg.png" alt="" class="footer__img">   
+     </a>
+     <a href="https://www.instagram.com/" target= "_blank">
+         <img src="./img/Instagram-logo.png" alt="" class="footer__img">
+     </a>
+     <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dru_RU" target= "_blank">
+         <img src="./img/FB-Circle.png" alt="" class="footer__img">
+     </a>
+    </div>
+ </footer>
+     
+ </body>
+ </html>
